@@ -3,7 +3,7 @@
     <img src="/assets/login_person.jpg" class="avatar">
     <h1>Login Here</h1>
     <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
-      <div class="form-group">
+      <div class="form-group" style="padding-top: 25px">
         <p>Username</p>
         <input type="text" formControlName="username" placeholder="Enter Username" class="form-control" required/>
         <div *ngIf="username.invalid && submitted" class="alert-danger">

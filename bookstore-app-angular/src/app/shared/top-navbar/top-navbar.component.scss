@@ -7,6 +7,13 @@ ul {
   height: 35px;
 }
 
+.navbar{
+  position: fixed;
+  width: 100vw;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+}
 
 li a {
   display: block;
@@ -22,10 +29,9 @@ li a:hover {
 }
 
 .envelop{
-
   color: white;
   position:relative;
-  top: 14%;
+  top: 20%;
   left: 232px;
   width: 25px;
 }
@@ -33,7 +39,7 @@ li a:hover {
 .email{
   cursor: pointer;
   position:relative;
-  top: 14%;
+  top: 16%;
   left: 230px;
   font-size: 16px;
   text-align: center;
@@ -43,7 +49,7 @@ li a:hover {
 .phone{
   color: white;
   position:relative;
-  top: 14%;
+  top: 20%;
   left: 203px;
   height: 15px;
   width: 25px;
@@ -51,7 +57,7 @@ li a:hover {
 
 .phoneNumber{
   position:relative;
-  top: 14%;
+  top: 16%;
   left: 200px;
   font-size: 16px;
   text-align: center;

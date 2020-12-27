@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+
+.image-100{
+  background: url("img/book_login1.jpg") no-repeat center center fixed;
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  overflow:hidden;
+  background-size: cover;
+  padding: 0px;
+  margin: -10px;
+  vertical-align: top;
+}
+
+h1{
+  font-family: 'Adamina', serif;
+  position: relative;
+  padding-left: 17%;
+  top: -25px;
+}
+
+.login-box{
+  width: 320px;
+  height: 420px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  top: 45%;
+  left: 20%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.avatar{
+  width: 100px;
+  height:  100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.login-box p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.login-box input{
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.login-box input[type="text"], input[type="password"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.login-box input[type="submit"]{
+  font-family: 'Adamina', serif;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #9b5823;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.login-box input[type="submit"]:hover{
+  cursor: pointer;
+  background: #c08133;
+  color:#000;
+}
+
+.login-box a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+}
+.login-box a:hover{
+  color: #cd9c37;
+}
+
+.alert-danger{
+  color: yellow;
+  position: relative;
+  bottom: 20px;
+}
+
+.forgot-password{
+  position: relative;
+  bottom: 20px;
+  left: 150px;
+}

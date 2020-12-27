@@ -1,0 +1,59 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2b2b2b;
+  height: 35px;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.envelop{
+
+  color: white;
+  position:relative;
+  top: 14%;
+  left: 232px;
+  width: 25px;
+}
+
+.email{
+  cursor: pointer;
+  position:relative;
+  top: 14%;
+  left: 230px;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+}
+
+.phone{
+  color: white;
+  position:relative;
+  top: 14%;
+  left: 203px;
+  height: 15px;
+  width: 25px;
+}
+
+.phoneNumber{
+  position:relative;
+  top: 14%;
+  left: 200px;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+}

@@ -9,6 +9,7 @@ import {HttpClientModule} from "@angular/common/http";
 import { HomePageComponent } from './home-page/home-page.component';
 import { TopNavbarComponent } from './shared/top-navbar/top-navbar.component';
 import { MenuNavbarComponent } from './shared/menu-navbar/menu-navbar.component';
+import { BookshopComponent } from './book/bookshop/bookshop.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MenuNavbarComponent } from './shared/menu-navbar/menu-navbar.component'
     LoginPageComponent,
     HomePageComponent,
     TopNavbarComponent,
-    MenuNavbarComponent
+    MenuNavbarComponent,
+    BookshopComponent
   ],
   imports: [
     BrowserModule,

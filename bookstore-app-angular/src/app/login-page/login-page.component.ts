@@ -43,7 +43,7 @@ export class LoginPageComponent implements OnInit {
     this.authenticationService.login(this.username.value, this.password.value)
       .subscribe(
         success => {
-          this.router.navigate(['/home']);
+          this.router.navigate(['/bookshop']);
         },
         error => {
           this.errormessage = error.message;

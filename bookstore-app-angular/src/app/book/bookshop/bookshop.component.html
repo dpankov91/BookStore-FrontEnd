@@ -1,0 +1,9 @@
+<button (click)="getAllBooks()">Show Books</button>
+<div>
+  <ul *ngIf="books">
+    <li *ngFor="let book of books">
+      <a class="bookname">{{book.name}}</a>
+    </li>
+  </ul>
+</div>
+<label>{{books.length}}</label>
